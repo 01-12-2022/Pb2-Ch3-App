@@ -1,0 +1,69 @@
+_schema-version: "3.2"
+ID: ZFIORI_DEMO
+description: Fiori Demo 1.0
+version: 0.0.1
+modules:
+- name: ZFIORI_DEMO-dest-content
+  type: com.sap.application.content
+  requires:
+  - name: ZFIORI_DEMO-destination-service
+    parameters:
+      content-target: true
+  - name: ZFIORI_DEMO-repo-host
+    parameters:
+      service-key:
+        name: ZFIORI_DEMO-repo-host-key
+  - name: ZFIORI_DEMO-uaa
+    parameters:
+      service-key:
+        name: ZFIORI_DEMO-uaa-key
+  parameters:
+    content:
+      instance:
+        destinations:
+        - Name: ZFIORI_DEMO_repo_host
+          ServiceInstanceName: ZFIORI_DEMO-html5-srv
+          ServiceKeyName: ZFIORI_DEMO-repo-host-key
+          sap.cloud.service: ZFIORI_DEMO
+        - Authentication: OAuth2UserTokenExchange
+          Name: ZFIORI_DEMO_uaa
+          ServiceInstanceName: ZFIORI_DEMO-xsuaa-srv
+          ServiceKeyName: ZFIORI_DEMO-uaa-key
+          sap.cloud.service: ZFIORI_DEMO
+        existing_destinations_policy: update
+  build-parameters:
+    no-source: true
+resources:
+- name: ZFIORI_DEMO-uaa
+  type: org.cloudfoundry.managed-service
+  parameters:
+    path: ./xs-security.json  
+    service: xsuaa
+    service-name: ZFIORI_DEMO-xsuaa-srv
+    service-plan: application
+- name: ZFIORI_DEMO-destination-service
+  type: org.cloudfoundry.managed-service
+  parameters:
+    config:
+      HTML5Runtime_enabled: true
+      version: 1.0.0
+      init_data:
+        instance:
+          existing_destinations_policy: update
+          destinations:
+          - Name: ui5
+            Type: HTTP
+            URL: https://ui5.sap.com
+            ProxyType: Internet
+            Authentication: NoAuthentication
+    service: destination
+    service-name: ZFIORI_DEMO-destination-service
+    service-plan: lite
+- name: ZFIORI_DEMO-repo-host
+  type: org.cloudfoundry.managed-service
+  parameters:
+    service: html5-apps-repo
+    service-name: ZFIORI_DEMO-html5-srv
+    service-plan: app-host
+parameters:
+  deploy_mode: html5-repo

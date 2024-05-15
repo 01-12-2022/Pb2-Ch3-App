@@ -1,0 +1,50 @@
+<mvc:View xmlns:table="sap.ui.table" xmlns:mvc="sap.ui.core.mvc" xmlns:smarttable="sap.ui.comp.smarttable" xmlns:smartfilterbar="sap.ui.comp.smartfilterbar" xmlns="sap.m" xmlns:smartForm="sap.ui.comp.smartform" controllerName="project4.controller.View1" displayBlock="true">
+    <Page id="productListPage" navButtonPress="onNavBack" showNavButton="true" title="Fiori">
+	<IconTabBar id="icontabtab">
+		<items>
+				<IconTabFilter  id="listpage" text="List">
+                    <Panel id="panel" width="100%">
+
+	<smartfilterbar:SmartFilterBar   id="filterbar2" entitySet="Order_Details" visible="true" persistencyKey="UniqueAndStablePersistencyKey2">
+                <smartfilterbar:controlConfiguration>
+                    <smartfilterbar:ControlConfiguration key="ProductID" visibleInAdvancedArea="true" ></smartfilterbar:ControlConfiguration>
+                    <smartfilterbar:ControlConfiguration key="OrderID" visibleInAdvancedArea="true" ></smartfilterbar:ControlConfiguration>
+                    <smartfilterbar:ControlConfiguration key="UnitPrice" visibleInAdvancedArea="true" ></smartfilterbar:ControlConfiguration>
+                    <smartfilterbar:ControlConfiguration key="Quantity" visibleInAdvancedArea="true" ></smartfilterbar:ControlConfiguration>
+                </smartfilterbar:controlConfiguration>
+           </smartfilterbar:SmartFilterBar>
+
+        <smarttable:SmartTable 
+		alignContent="Inherit"  
+		class="sapUiSmallMarginEnd"
+		direction="Column" 
+		fitContainer="true" 
+		header="Orderss"  
+		id="faktura_table2" 
+		enableAutoBinding="false"
+        entitySet="Order_Details"  
+		tableType="ResponsiveTable" 
+        initiallyVisibleFields="OrderID,ProductID,UnitPrice,Quantity," 
+        smartFilterId="filterbar2">
+           <Table id="simpletable2" growing="true">
+            <items>
+                <ColumnListItem id="listitem2" type="Navigation" press=".onDetail">
+                    <cells>
+                     
+                    </cells>
+                </ColumnListItem>
+            </items>
+        </Table>
+        </smarttable:SmartTable >
+
+		</Panel>
+                </IconTabFilter>
+				<IconTabFilter id="lblanko" text="Blanko"> <Text text="Hello, die Seite ist noch leer" id="viewCounter"/> </IconTabFilter>
+		</items>
+	</IconTabBar>
+
+    
+	</Page>
+    
+    <Button xmlns="sap.m" class="sapUiSmallMarginEnd" text="Weiter" id="nextPage" press="onPress" type="Default" activeIcon="sap-icon://begin"/>
+</mvc:View>

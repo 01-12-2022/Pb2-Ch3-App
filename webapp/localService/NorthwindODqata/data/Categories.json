@@ -1,0 +1,242 @@
+[
+    {
+        "CategoryName": "CategoryName1",
+        "Description": "Description1",
+        "Picture": "4879f2219b1fca7ba1207024f499ed41",
+        "CategoryID": 1183231061
+    },
+    {
+        "CategoryName": "CategoryName2",
+        "Description": "Description2",
+        "Picture": "3ce5bd55911a4586101154b8b7ba3f68",
+        "CategoryID": 949273404
+    },
+    {
+        "CategoryName": "CategoryName3",
+        "Description": "Description3",
+        "Picture": "b546d03556a8e46b3e0d863aca79704d",
+        "CategoryID": 2125307976
+    },
+    {
+        "CategoryName": "CategoryName4",
+        "Description": "Description4",
+        "Picture": "1ef9ac360af9342ede9bda5aff93084b",
+        "CategoryID": 1990832314
+    },
+    {
+        "CategoryName": "CategoryName5",
+        "Description": "Description5",
+        "Picture": "16239c8937f462d7f45a1da68a2573e7",
+        "CategoryID": 1464427022
+    },
+    {
+        "CategoryName": "CategoryName6",
+        "Description": "Description6",
+        "Picture": "19ff94a3e0df0943eb6e4015ed444e1e",
+        "CategoryID": 1022325090
+    },
+    {
+        "CategoryName": "CategoryName7",
+        "Description": "Description7",
+        "Picture": "0b53eafd7195fb50448528824453568e",
+        "CategoryID": 1964680402
+    },
+    {
+        "CategoryName": "CategoryName8",
+        "Description": "Description8",
+        "Picture": "f6dce929c8ad06344a2019dca1ac42b7",
+        "CategoryID": 367151755
+    },
+    {
+        "CategoryName": "CategoryName9",
+        "Description": "Description9",
+        "Picture": "851e716b143af2b386ba4c7cbb75c3ec",
+        "CategoryID": 2062061762
+    },
+    {
+        "CategoryName": "CategoryName10",
+        "Description": "Description10",
+        "Picture": "0f48deea63ae3f3fc7fc1c8c1089b8cf",
+        "CategoryID": 1809505507
+    },
+    {
+        "CategoryName": "CategoryName11",
+        "Description": "Description11",
+        "Picture": "0a4b2167e6625f7eda8293a3b2b97ec1",
+        "CategoryID": 1505581034
+    },
+    {
+        "CategoryName": "CategoryName12",
+        "Description": "Description12",
+        "Picture": "1e180b1b604f5ad0dc79320069001110",
+        "CategoryID": 1448816218
+    },
+    {
+        "CategoryName": "CategoryName13",
+        "Description": "Description13",
+        "Picture": "ca67d07912f49a2de861f535fb0f473f",
+        "CategoryID": 391371726
+    },
+    {
+        "CategoryName": "CategoryName14",
+        "Description": "Description14",
+        "Picture": "b3028ee6ddd2c733bd028126990b246c",
+        "CategoryID": 272355429
+    },
+    {
+        "CategoryName": "CategoryName15",
+        "Description": "Description15",
+        "Picture": "93b492513f4d037df67edc0469f41cbe",
+        "CategoryID": 906713206
+    },
+    {
+        "CategoryName": "CategoryName16",
+        "Description": "Description16",
+        "Picture": "fc64227ac346c56a4a921e34826a587d",
+        "CategoryID": 276912946
+    },
+    {
+        "CategoryName": "CategoryName17",
+        "Description": "Description17",
+        "Picture": "c7e9c01b81d15cf0963b71f952ce30ad",
+        "CategoryID": 1084812463
+    },
+    {
+        "CategoryName": "CategoryName18",
+        "Description": "Description18",
+        "Picture": "30cfd8c87220051557eb846268ad7d25",
+        "CategoryID": 320694869
+    },
+    {
+        "CategoryName": "CategoryName19",
+        "Description": "Description19",
+        "Picture": "1df8a2abbab2ea9b429eb797775641d4",
+        "CategoryID": 119218079
+    },
+    {
+        "CategoryName": "CategoryName20",
+        "Description": "Description20",
+        "Picture": "327d1c4f7b4b43ef29ef2cb43d764e46",
+        "CategoryID": 506596930
+    },
+    {
+        "CategoryName": "CategoryName21",
+        "Description": "Description21",
+        "Picture": "c8c8eab29e0d8b941c56da8ef3ce1ca2",
+        "CategoryID": 212333160
+    },
+    {
+        "CategoryName": "CategoryName22",
+        "Description": "Description22",
+        "Picture": "7ffb1256903e80fde31388a3f51f9855",
+        "CategoryID": 1761615054
+    },
+    {
+        "CategoryName": "CategoryName23",
+        "Description": "Description23",
+        "Picture": "1446f151988d7f3161869554ad3ddc7a",
+        "CategoryID": 502062091
+    },
+    {
+        "CategoryName": "CategoryName24",
+        "Description": "Description24",
+        "Picture": "56a616c01895ae81a252172d60623c66",
+        "CategoryID": 532523639
+    },
+    {
+        "CategoryName": "CategoryName25",
+        "Description": "Description25",
+        "Picture": "6c7dbb4e0ea6ed8c2a94ed11ed0d20bc",
+        "CategoryID": 1614465334
+    },
+    {
+        "CategoryName": "CategoryName26",
+        "Description": "Description26",
+        "Picture": "6836c2b067d0e09938d2563220e091f7",
+        "CategoryID": 1823953728
+    },
+    {
+        "CategoryName": "CategoryName27",
+        "Description": "Description27",
+        "Picture": "554719c1758d46efac92eab24aad0194",
+        "CategoryID": 1502911556
+    },
+    {
+        "CategoryName": "CategoryName28",
+        "Description": "Description28",
+        "Picture": "e27949e24dfca37fe4448adbc17c971f",
+        "CategoryID": 1070132191
+    },
+    {
+        "CategoryName": "CategoryName29",
+        "Description": "Description29",
+        "Picture": "0dbe2b824c6b2660d59d07cb8f22e65e",
+        "CategoryID": 736904463
+    },
+    {
+        "CategoryName": "CategoryName30",
+        "Description": "Description30",
+        "Picture": "19d79013788b6d73c047aa5bea68fb76",
+        "CategoryID": 214960069
+    },
+    {
+        "CategoryName": "CategoryName31",
+        "Description": "Description31",
+        "Picture": "81b49232e8067585c71ca64ab902c793",
+        "CategoryID": 1584226820
+    },
+    {
+        "CategoryName": "CategoryName32",
+        "Description": "Description32",
+        "Picture": "45caf598385bfedb979468ea578b9c1d",
+        "CategoryID": 238352381
+    },
+    {
+        "CategoryName": "CategoryName33",
+        "Description": "Description33",
+        "Picture": "7fe32f31b10ea217515a7dcd40782d1b",
+        "CategoryID": 305144012
+    },
+    {
+        "CategoryName": "CategoryName34",
+        "Description": "Description34",
+        "Picture": "d47c22319b1e9cb84d787b23998caad5",
+        "CategoryID": 533136888
+    },
+    {
+        "CategoryName": "CategoryName35",
+        "Description": "Description35",
+        "Picture": "4aed119dca8a35f2c3165d7938466dd6",
+        "CategoryID": 1345868587
+    },
+    {
+        "CategoryName": "CategoryName36",
+        "Description": "Description36",
+        "Picture": "54241be29cc08dcbfb26ad2879240d93",
+        "CategoryID": 1858893768
+    },
+    {
+        "CategoryName": "CategoryName37",
+        "Description": "Description37",
+        "Picture": "7ce7232836bcc796f7361076f6317898",
+        "CategoryID": 610262312
+    },
+    {
+        "CategoryName": "CategoryName38",
+        "Description": "Description38",
+        "Picture": "721e5095151746c55a06e1c123f995d6",
+        "CategoryID": 2035019794
+    },
+    {
+        "CategoryName": "CategoryName39",
+        "Description": "Description39",
+        "Picture": "6094419808b0ffd17970fe85ffaf9825",
+        "CategoryID": 1459640052
+    },
+    {
+        "CategoryName": "CategoryName40",
+        "Description": "Description40",
+        "Picture": "98dc10b4313bf9ab129eb2281cfb6e04",
+        "CategoryID": 1605265843
+    }
+]
