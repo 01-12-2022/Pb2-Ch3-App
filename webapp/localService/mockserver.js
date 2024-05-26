@@ -21,7 +21,7 @@ sap.ui.define([
 
 			// simulate
 			const sPath = sap.ui.require.toUrl("project/localService/NorthwindODqata");
-			oMockServer.simulate(sPath + "/metadata.xml", sPath + "/mockdata");
+			oMockServer.simulate(sPath + "/metadata.xml", sPath + "/data");
 
 			// start
 			oMockServer.start();

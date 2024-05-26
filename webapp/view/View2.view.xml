@@ -75,8 +75,9 @@ displayBlock="true">
 		tableType="ResponsiveTable" 
         entitySet="Order_Details"  
         initiallyVisibleFields="OrderID,ProductID,UnitPrice,Quantity,Discount" 
+        class="sapUiSmallMarginEnd,sapUiResponsiveContentPadding"
         editTogglable="true" app:useSmartToggle="true"
-        demandPopin="true" class="sapUiResponsiveContentPadding" showDetailsButton="true">
+        demandPopin="true" showDetailsButton="true">
 
 
        

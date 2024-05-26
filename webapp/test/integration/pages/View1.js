@@ -13,6 +13,9 @@ sap.ui.define([
 		onTheWorklistPage: {
 
 			actions: { 
+				iStartMyApp: function () {
+                    return this.iStartMyAppInAFrame("../index.html");
+                },
 				iPressOnMoreData: function () {
 					// Press action hits the "more" trigger on a table
 					return this.waitFor({
